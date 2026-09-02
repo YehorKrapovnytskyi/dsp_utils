@@ -3,8 +3,6 @@ import numpy as np
 from scipy.stats import norm
 
 
-__all__ = ['SignalPlotter']
-
 class SignalPlotter:
     def __init__(self, theme='seaborn-v0_8-muted', font_family='sans-serif'):
         """Initializes global styling for all plots in the session."""
